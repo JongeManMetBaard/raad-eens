@@ -10,7 +10,6 @@ while ronde < 20:
     print("Dit is ronde:",ronde)
     poging = 0
     while poging < 10:
-        print(randomNumber)
         gok = int(input("Welke getal wil je invullen:\n"))
         poging += 1
         verschil = gok - randomNumber
